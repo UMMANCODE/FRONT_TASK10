@@ -1,0 +1,122 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+
+#logo {
+  width: 60px;
+  margin: 0 auto;
+}
+
+.logo-x {
+  margin-bottom: 20px;
+}
+
+.logo-x span {
+  font-size: 40px;
+  font-weight: lighter;
+  position: absolute;
+  right: 0;
+  color: #4e66f8;
+}
+
+header {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#signupBtn {
+  margin-top: 20px;
+  width: 100%;
+  height: 46px;
+  background-color: #4e66f8;
+}
+
+#facebookBtn {
+  margin-top: 15px;
+  width: 100%;
+  height: 46px;
+}
+
+#googleBtn {
+  margin-top: 10px;
+  width: 100%;
+  height: 46px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #4e66f8;
+}
+
+#or {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#forestImg .image {
+  height: 100%;
+  position: relative;
+}
+
+#forestImg .image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  text-transform: uppercase;
+  position: relative;
+}
+
+i {
+  position: absolute;
+  left: 20px;
+  bottom: 6px;
+}
+
+#liveToast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+#tool {
+  position: fixed;
+  top: 160px;
+  right: 0px;
+  z-index: 1000;
+  background-color: #4e66f8;
+  color: white;
+  border: solid 0.8px #4e66f8;
+  width: 72px;
+  height: 54px;
+  padding: 10px 20px;
+}
