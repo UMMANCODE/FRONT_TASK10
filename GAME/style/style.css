@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.box {
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: royalblue;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.egg {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    position: absolute;
+    z-index: 1;
+}
